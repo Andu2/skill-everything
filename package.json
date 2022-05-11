@@ -1,0 +1,28 @@
+{
+  "name": "vite-svelte-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "dependency-check": "npx madge --circular --extensions ts ./src"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^2.0.1",
+    "jsdom": "^19.0.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.7",
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typedoc": "^0.22.15",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.5",
+    "vitest": "^0.9.3"
+  }
+}

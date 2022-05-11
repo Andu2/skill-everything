@@ -1,0 +1,5 @@
+/node_modules/
+/public/build/
+/skills-everything/
+
+.DS_Store
